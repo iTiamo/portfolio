@@ -10,71 +10,57 @@
     <link rel="shortcut icon" type="image/png" href="resources/cloud.png" />
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 
-    <meta property="og:title" content="Tiamo Idzenga | Cloud Engineer" />
+    <meta property="og:title"
+        content="Tiamo Idzenga, Cloud Engineer | Azure, .NET, DevOps" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://idzenga.dev" />
     <meta property="og:image" content="https://idzenga.dev/resources/me.jpg" />
-    <meta property="og:description"
-        content="I help make software more reliable, safe and manageable by contributing towards the development process, managing build, test and deployment pipelines & cloud infrastructure, documenting code and monitoring applications." />
+    <meta name="description" property="og:description"
+        content="Azure certified Cloud Engineer who believes software should be reliable, manageable, secure and continuously deliver the best quality for users" />
     <meta name="theme-color" content="#1F2937">
 </head>
 
 <body
-    class="h-screen flex flex-col sm:flex-row justify-center items-center gap-10 bg-gray-800 p-4">
+    class="h-screen flex flex-col sm:flex-row justify-center items-center bg-gray-800 p-4 gap-10">
     <aside>
-        <img class="rounded-full max-w-xs p-4" src="resources/me.jpg">
+        <img class="rounded-full max-w-xs p-4" src="resources/me.jpg" alt="Tiamo Idzenga">
+
+        <div class="flex justify-center gap-8 mt-4">
+            <a href="https://www.linkedin.com/in/tiamo-idzenga"><img
+                    src="resources/linkedin.png" alt="View my experience on LinkedIn"></a>
+
+            <a href="https://github.com/iTiamo"><img src="resources/github.png"
+                    alt="View my projects on Github"></a>
+
+            <a href="https://stackoverflow.com/users/8611076/tiamo-idzenga"><img
+                    src="resources/stackoverflow.png"
+                    alt="View my answers on StackOverflow"></a>
+        </div>
     </aside>
+
     <main class="max-w-sm flex flex-col">
-        <header>
-            <h1 class="text-2xl font-bold mb-2 text-gray-50">Tiamo Idzenga | Cloud
-                Engineer
+        <header class="mb-4">
+            <h1 class="text-2xl font-bold mb-1 text-gray-50">Tiamo Idzenga, Cloud Engineer
             </h1>
+            <h2 class="text-xl font-bold text-gray-50">Azure, .NET, DevOps</h2>
         </header>
 
-        <h2 class="text-xl mb-4 text-gray-50">Coming soon...</h2>
+        <p class="text-lg font-light mb-6 text-gray-50">As an Azure certified Cloud
+            Engineer, I believe software should be reliable, manageable &
+            secure to continuously deliver the best quality for your users.</p>
 
-        <p class="text-lg font-light mb-6 text-gray-50">There will be a beautiful
-            portfolio website here soon. 😁 In the meantime, why not</p>
+        <p class="text-lg font-light mb-6 text-gray-50">I accomplish this by using the
+            seven DevOps toolchains: coding, building, testing, packaging, releasing,
+            configuring & monitoring.</p>
 
         <div class="flex flex-col sm:flex-row gap-3 items-center mb-6">
-            <a class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded w-44 text-center"
-                href="https://www.linkedin.com/in/tiamo-idzenga/">Visit my
-                LinkedIn</a>
+            <a class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded w-40 text-center"
+                href="mailto:tiamo@idzenga.dev">Lets Talk</a>
             <span class="text-gray-50">or</span>
-            <a class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded w-44 text-center"
-                href="mailto:tiamo@idzenga.dev">Contact me</a>
-        </div>
-
-        <p class="text-lg font-light mb-6 text-gray-50">Or maybe you want to</p>
-
-        <div class="flex flex-col items-start w-56 self-center sm:self-auto">
-            <div
-                class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded flex items-center w-56">
-                <a href="resources/TIdzenga-Curriculum-Vitae-en.pdf"
-                    class="flex items-center"><img class="mr-2" src="resources/gb.svg"
-                        width="24px">Download my CV</a>
-                <svg class="w-5 h-5 ml-2 pr-1 cursor-pointer" fill="none"
-                    stroke="currentColor" viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg" onclick="toggleDropdown()">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                        d="M19 9l-7 7-7-7"></path>
-                </svg>
-            </div>
-            <div id="dropdown"
-                class="hidden bg-gray-50 text-base z-50 list-none divide-y divide-gray-100 rounded shadow mt-1 self-end">
-                <ul class="py-1">
-                    <li>
-                        <a class="font-bold hover:bg-gray-200 text-gray-900 block px-4 py-1 flex items-center"
-                            href="resources/TIdzenga-Curriculum-Vitae.pdf"><img
-                                class="mr-2" src="resources/nl.svg" width="24px">Dutch
-                            version</a>
-                    </li>
-                </ul>
-            </div>
+            <a class="text-red-600 underline"
+                href="resources/TIdzenga-Curriculum-Vitae-en.pdf">Download my CV</a>
         </div>
     </main>
-
-    <script src="scripts/index.js"></script>
 </body>
 
 </html>
